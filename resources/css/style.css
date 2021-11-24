@@ -1,0 +1,311 @@
+/* Basic setup */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  font-family: "Lato", " Arial", sans-serif;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  font-size: 20px;
+}
+
+.fix-size {
+  zoom: 1;
+}
+
+.fix-size:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+/* reusable components */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0px;
+}
+
+.box {
+  padding: 2%;
+}
+
+/* Header section */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header-hero-image {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(0, -50%);
+}
+
+h1 {
+  color: white;
+  font-weight: 350;
+  font-size: 240%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 7px;
+  margin-bottom: 20px;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 30px;
+  transition: padding 0.2s, border 0.2s;
+  font-size: 120%;
+}
+
+.btn-main:link,
+.btn-main:visited {
+  background-color: rgb(255, 166, 0);
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+.btn-main:hover,
+.btn-main:active {
+  border: 2px solid orange;
+  padding: 20px 40px;
+}
+
+.btn-second-main:link,
+.btn-second-main:visited {
+  border: 1px solid orange;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.btn-second-main:hover,
+.btn-second-main:active {
+  border: 2px solid orange;
+  padding: 20px 40px;
+}
+
+/* Styling navigation-bar */
+
+.logo-img {
+  height: auto;
+  width: 150px;
+  float: left;
+  margin: 20px 0 0 80px;
+}
+
+.main-nav {
+  float: right;
+  margin-top: 50px;
+}
+
+.main-nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 90%;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+  padding: 10px 0px;
+}
+
+.main-nav li a:hover {
+  border-bottom: 2px solid orange;
+}
+
+/* styling main-section */
+
+h2 {
+  font-weight: 400;
+  font-size: 180%;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+h2:after {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 60%;
+  background-color: #ff8800;
+  margin: 30px auto;
+}
+
+.long-para {
+  line-height: 140%;
+  width: 72%;
+  margin-left: 18%;
+  font-size: 110%;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 130%;
+  font-weight: 370;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.bigIcon {
+  color: #ff9823;
+  font-size: 400%;
+  margin-bottom: 7px;
+}
+
+/* Styling meal-section */
+
+.meal-section {
+  width: 100%;
+  margin-top: 20em;
+  padding: 0px;
+}
+
+.meal-photo {
+  list-style: none;
+  width: 100%;
+}
+
+.meal-photo li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.img-case {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.img-case img {
+  width: 100%;
+  height: auto;
+  transform: scale(1.05);
+  opacity: 80%;
+  transition: transform 0.4s, opacity 0.4s;
+}
+
+.img-case img:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Styling how it works section */
+
+.step-section {
+  background-color: #ececec;
+  overflow: hidden;
+}
+
+.works:first-child {
+  padding-right: 3%;
+  text-align: right;
+}
+
+.works:last-child {
+  padding-left: 3%;
+  margin-top: 80px;
+}
+
+.works img {
+  width: 50%;
+}
+
+.steps-work {
+  margin-bottom: 80px;
+}
+
+.steps-work div {
+  border: 2px solid #ff8800;
+  text-align: center;
+  display: block;
+  width: 55px;
+  height: 55px;
+  font-size: 23px;
+  border-radius: 50%;
+  padding-top: 10px;
+  float: left;
+  margin-right: 20px;
+}
+
+.steps-work:last-of-type {
+  margin-bottom: 100px;
+}
+
+.btn-app {
+  padding: 10px;
+  width: 100%;
+}
+
+.btn-app img {
+  height: 60px;
+  width: auto;
+}
+
+/* Styling cities-section */
+
+.box img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.cities-data {
+  margin: 20px 0px;
+}
+
+.small-icon {
+  color: #ff8800;
+  margin: -5px 10px 0 0;
+  font-size: 120%;
+  line-height: 10px;
+  text-align: center;
+  vertical-align: middle;
+  width: 30px;
+}
+
+.twitter-link:link,
+.twitter-link:visited {
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  color: #000;
+  transition: border-bottom 0.2s, color 0.2s;
+  padding-bottom: 3px;
+}
+
+.twitter-link:active,
+.twitter-link:hover {
+  color: #3f32ff;
+  border-bottom: 2px solid #ff8800;
+}
