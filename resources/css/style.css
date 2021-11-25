@@ -49,6 +49,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .header-hero-image {
@@ -308,4 +309,42 @@ h3 {
 .twitter-link:hover {
   color: #3f32ff;
   border-bottom: 2px solid #ff8800;
+}
+
+/*Styling testimonials section */
+
+.testimonials-section {
+  overflow: auto;
+  clear: both;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./img/back-customers.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  font-weight: 300;
+  font-size: 100%;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 0 0 20px 0;
+  line-height: 145%;
+  padding: 2%;
+}
+
+blockquote::before {
+  content: "\0022";
+  font-size: 400%;
+}
+
+cite {
+  font-size: 90%;
+  display: block;
+}
+
+cite img {
+  border-radius: 50%;
+  height: 60px;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
 }
