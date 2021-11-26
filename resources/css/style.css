@@ -72,7 +72,6 @@ h1 {
 .btn:link,
 .btn:visited {
   text-decoration: none;
-  color: #fff;
   display: inline-block;
   padding: 15px 30px;
   transition: padding 0.2s, border 0.2s;
@@ -81,6 +80,7 @@ h1 {
 
 .btn-main:link,
 .btn-main:visited {
+  color: #ffffff;
   background-color: rgb(255, 166, 0);
   border: 1px solid orange;
   border-radius: 5px;
@@ -94,6 +94,7 @@ h1 {
 
 .btn-second-main:link,
 .btn-second-main:visited {
+  color: #99c5ff;
   border: 1px solid orange;
   border-radius: 5px;
   margin-left: 15px;
@@ -347,4 +348,49 @@ cite img {
   height: 60px;
   vertical-align: middle;
   margin: 0 10px 0 0;
+}
+
+/* Styling plans section */
+
+.plans-section {
+  background-color: #e9e9e9;
+  overflow: auto;
+}
+
+.plan-box {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #313131;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 3%;
+}
+
+.price-plan {
+  font-size: 400%;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.price-plan-meal {
+  font-size: 110%;
+  font-weight: 300;
+}
+
+span {
+  font-size: 20%;
+  font-weight: 300;
+}
+
+.plan-box div {
+  padding: 4%;
+  color: #ee7f00;
+}
+
+.plan-box ul {
+  list-style: none;
+}
+
+.plan-box ul li {
+  padding: 10px 0;
 }
