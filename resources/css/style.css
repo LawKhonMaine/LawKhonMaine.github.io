@@ -168,8 +168,8 @@ h2:after {
 }
 
 h3 {
-  font-size: 130%;
-  font-weight: 370;
+  font-size: 100%;
+  font-weight: 400;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
@@ -351,7 +351,7 @@ cite img {
 /* Styling plans section */
 
 .plans-section {
-  background-color: #e9e9e9;
+  background-color: #c0c0c0;
 }
 
 .plan-box {
@@ -427,4 +427,77 @@ textarea {
 
 input[type="checkbox"] {
   margin: 0 25px 0 0;
+}
+
+/* Styling footer section */
+
+footer {
+  background-color: #1f1f1f;
+}
+
+.footer-nav {
+  float: left;
+}
+
+.social-link {
+  float: right;
+}
+
+.footer-nav li,
+.social-link li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 25px 0 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-link li a:visited,
+.social-link li a:link {
+  text-decoration: none;
+  color: #616a75;
+  padding: 0 0 5px 0;
+  font-weight: 400;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  color: #c0c0c0;
+}
+
+.footer-nav li:last-child,
+.social-link li:last-child {
+  margin-right: 0;
+}
+
+.social-link li a {
+  font-size: 140%;
+}
+
+.footer-para {
+  text-align: center;
+  padding: 80px 0 70px 0;
+  color: #949494;
+}
+
+.fa-facebook:hover,
+.fa-facebook:active {
+  color: #3b5998;
+}
+
+.fa-instagram:hover,
+.fa-instagram:active {
+  color: #c32aa3;
+}
+
+.fa-twitter:hover,
+.fa-twitter:active {
+  color: #1da1f2;
+}
+
+.fa-google-plus-g:hover,
+.fa-google-plus-g:active {
+  color: #fbbc05;
 }
