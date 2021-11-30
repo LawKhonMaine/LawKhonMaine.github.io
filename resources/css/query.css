@@ -1,0 +1,335 @@
+@media only screen and (max-width: 1200px) {
+  .social-link li:last-child {
+    margin-right: 10px;
+  }
+
+  .footer-nav li:first-child {
+    margin-left: 10px;
+  }
+
+  .testimonials-section {
+    font-weight: 300;
+    font-size: 90%;
+  }
+
+  .cities-data {
+    font-size: 95%;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  h2 {
+    font-size: 160%;
+  }
+
+  .logo-img {
+    margin-left: 0px;
+  }
+
+  .main-nav {
+    float: right;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    font-size: 80%;
+  }
+
+  .header-hero-image {
+    left: 15%;
+    margin-top: 90px;
+  }
+
+  h1 {
+    font-size: 195%;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+  }
+
+  .long-para {
+    line-height: 130%;
+    width: 80%;
+    margin: 0 10% 20px 10%;
+  }
+
+  .works img {
+    width: 55%;
+  }
+
+  .works:last-child {
+    margin-top: 40px;
+    padding: 0 1%;
+  }
+
+  .steps-work {
+    margin-bottom: 50px;
+  }
+
+  .steps-work div {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+  }
+
+  .steps-work:last-of-type {
+    margin-bottom: 50px;
+  }
+
+  .btn-app {
+    padding: 0px;
+    width: 49%;
+    display: inline-block;
+  }
+
+  .btn-app img {
+    width: 100%;
+    height: 55px;
+  }
+
+  .cities-data {
+    font-size: 83%;
+  }
+
+  .small-icon {
+    margin: -5px 3px 0 0;
+    font-size: 100%;
+    line-height: 8px;
+    width: 23px;
+  }
+
+  .box {
+    padding: 0px;
+  }
+
+  h3 {
+    font-size: 90%;
+  }
+
+  .bigIcon {
+    font-size: 350%;
+    margin-bottom: 10px;
+  }
+
+  .plan-box {
+    padding: 3% 0;
+  }
+
+  .price-plan {
+    font-size: 300%;
+  }
+
+  span {
+    font-size: 20%;
+    font-weight: 300;
+  }
+
+  .plan-box div {
+    padding: 1%;
+    font-size: 80%;
+  }
+
+  .footer-nav li,
+  .social-link li {
+    margin: 10px 10px 0 0;
+  }
+
+  .footer-nav li a {
+    font-size: 82%;
+  }
+
+  .social-link li a {
+    font-size: 110%;
+  }
+
+  blockquote {
+    font-size: 90%;
+  }
+
+  .col {
+    padding: 0 1%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .col {
+    width: 98%;
+  }
+
+  .plan-container {
+    padding: 0 2%;
+    margin: 10px 0;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+  }
+
+  label {
+    margin-left: 10px;
+  }
+
+  input[type="submit"] {
+    margin-left: 35%;
+  }
+
+  .social-link {
+    float: none;
+    margin-bottom: 30px;
+  }
+
+  blockquote {
+    margin-bottom: 5px;
+  }
+  cite {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .btn-app {
+    text-align: center;
+  }
+
+  .btn-app img {
+    width: 80%;
+  }
+
+  .works:first-child {
+    text-align: center;
+  }
+
+  .main-nav {
+    float: right;
+    margin: 0px;
+  }
+
+  .main-nav li {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 190%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 40px 0;
+  }
+  header {
+    height: 120vh;
+  }
+  .header-hero-image {
+    top: 70%;
+    left: 0;
+  }
+  .box {
+    padding: 2%;
+  }
+  h1 {
+    font-size: 170%;
+    word-spacing: 3px;
+  }
+
+  .btn:link,
+  .btn:visited {
+    display: block;
+    padding: 15px 30px;
+    font-size: 100%;
+    width: 80%;
+    text-align: center;
+    margin: 0 10%;
+  }
+
+  .btn-second-main:link,
+  .btn-second-main:visited {
+    margin-top: 10px;
+  }
+
+  .logo-img {
+    width: 120px;
+    float: none;
+    text-align: center;
+  }
+
+  .main-nav {
+    float: none;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .main-nav li {
+    display: block;
+    list-style: none;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 140%;
+    letter-spacing: 4px;
+  }
+
+  .long-para {
+    line-height: 140%;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 110%;
+  }
+
+  .bigIcon {
+    font-size: 350%;
+  }
+
+  .steps-work div {
+    margin-right: 5px;
+  }
+
+  .steps-work {
+    font-size: 85%;
+  }
+
+  .btn-app {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+    height: auto;
+    display: block;
+  }
+
+  .btn-app img {
+    width: 60%;
+  }
+
+  .cities-data {
+    font-size: 100%;
+  }
+
+  blockquote {
+    font-size: 110%;
+  }
+
+  .footer-nav {
+    float: none;
+    margin: 0;
+  }
+
+  .footer-nav li {
+    display: block;
+    list-style: none;
+    margin: 0;
+  }
+
+  .footer-nav li:first-child {
+    margin-left: 0;
+  }
+
+  input[type="checkbox"] {
+    margin: 0px 10px 0 0;
+    vertical-align: center;
+  }
+
+  input[type="submit"] {
+    margin: 0;
+  }
+}
