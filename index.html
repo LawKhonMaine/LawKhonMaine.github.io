@@ -26,25 +26,28 @@
     <header>
       <nav>
         <div class="all-nav">
+         
           <img
             src="./resources/css/img/logo-white.png"
             alt="LogoImage"
             class="logo-img"
           />
+          <img src="./resources/css/img/logo.png" alt="LogoImage" class="black-logo-img">
           <ul class="main-nav">
             <li>
-              <a href="#">Food delivery </a>
+              <a href="#feature">Food delivery </a>
             </li>
             <li>
-              <a href="#"> How it works </a>
+              <a href="#step"> How it works </a>
             </li>
             <li>
-              <a href="#">Our cities </a>
+              <a href="#cities">Our cities </a>
             </li>
             <li>
-              <a href="#">Sign up </a>
+              <a href="#plans">Sign up </a>
             </li>
           </ul>
+        
         </div>
       </nav>
       <div class="header-hero-image">
@@ -52,12 +55,12 @@
           Goodbye junk food.<br />
           Hello super healthy meals.
         </h1>
-        <a href="#" class="btn btn-main">I’m hungry </a>
-        <a href="#" class="btn btn-second-main">Show me more </a>
+        <a href="#" class="btn btn-main js-btn-full">I’m hungry </a>
+        <a href="#" class="btn btn-second-main js-btn-ghost">Show me more </a>
       </div>
     </header>
 
-    <section class="fix-size">
+    <section class="fix-size js--section-feature" id="feature">
       <div class="row">
         <h2>Get food fast &mdash; not fast food</h2>
         <p class="long-para">
@@ -176,7 +179,7 @@
     </section>
 
 
-    <section class="step-section fix-size">
+    <section class="step-section fix-size" id="step">
       <div class="row"><h2>How it works &mdash; Simple as 1, 2, 3</h2></div>
 
       <div class="row">
@@ -224,7 +227,7 @@
       </div>
     </section>
 
-    <section class="cities-section fix-size">
+    <section class="cities-section fix-size" id="cities">
       <div class="row">
         <h2>We're currently in these cities</h2>
       </div>
@@ -337,7 +340,7 @@
       </div>
     </section>
 
-    <section class="plans-section fix-size">
+    <section class="plans-section fix-size js--section-plan" id="plans">
       
       <div class="row">
         <h2>Start eating healthy today</h2>
@@ -527,6 +530,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
    <script src="./resources/js/script.js"></script>
   </body>
 </html>

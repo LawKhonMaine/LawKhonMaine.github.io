@@ -136,9 +136,17 @@ input[type="submit"] {
   margin: 20px 0 0 80px;
 }
 
+.black-logo-img {
+  display: none;
+  height: auto;
+  width: 80px;
+  float: left;
+  margin: 0px 0 5px 80px;
+}
+
 .main-nav {
   float: right;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .main-nav li {
@@ -149,7 +157,7 @@ input[type="submit"] {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-size: 90%;
   text-transform: uppercase;
@@ -164,6 +172,41 @@ input[type="submit"] {
   border-bottom: 2px solid orange;
 }
 
+/* Styling sticky-nav */
+
+.sticky-nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #f5f5f5;
+  box-shadow: #00000026 0px 3px 4px 0px;
+  color: black;
+  z-index: 9999;
+}
+
+.sticky-nav .main-nav {
+  margin-top: 15px;
+}
+
+.sticky-nav .main-nav li {
+  padding: 15px 10px;
+}
+
+.sticky-nav .main-nav li a:link,
+.sticky-nav .main-nav li a:visited {
+  font-size: 85%;
+  color: #000000;
+  padding: 15px 0px;
+}
+
+.sticky-nav .logo-img {
+  display: none;
+}
+
+.sticky-nav .black-logo-img {
+  display: block;
+}
 /* styling main-section */
 
 h2 {
