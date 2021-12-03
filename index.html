@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <link rel="stylesheet" href="resources/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,7 +24,7 @@
     <link rel="stylesheet" href="./resources/css/query.css">
   </head>
   <body>
-    <header>
+    <header class="js--section-header">
       <nav>
         <div class="all-nav">
          
@@ -60,7 +61,7 @@
       </div>
     </header>
 
-    <section class="fix-size js--section-feature" id="feature">
+    <section class="fix-size js--section-feature js--wp-1" id="feature">
       <div class="row">
         <h2>Get food fast &mdash; not fast food</h2>
         <p class="long-para">
@@ -69,7 +70,7 @@
           we’re really good at it, we promise!
         </p>
       </div>
-      <div class="row">
+      <div class="row ">
         <div class="col span_1_of_4 box">
           <i class="far fa-calendar-alt bigIcon"></i>
           <h3>Up to 365 days/year</h3>
@@ -109,7 +110,7 @@
       </div>
     </section>
 
-    <section class="meal-section fix-size">
+    <section class="meal-section fix-size js--section-meal">
       <ul class="meal-photo">
         <li>
           <figure class="img-case">
@@ -179,11 +180,11 @@
     </section>
 
 
-    <section class="step-section fix-size" id="step">
+    <section class="step-section fix-size js--section-step" id="step">
       <div class="row"><h2>How it works &mdash; Simple as 1, 2, 3</h2></div>
 
-      <div class="row">
-        <div class="col span_1_of_2 works">
+      <div class="row js--wp-2">
+        <div class="col span_1_of_2 works ">
           <img
             src="./resources/css/img/app-iPhone.png"
             alt="Iphone screen"
@@ -213,16 +214,20 @@
             </p>
           </div>
           
-          <a href="#" class="btn-app"
+         <div class="btn-app-box">
+           <a href="#" class="btn-app"
             ><img
               src="./resources/css/img/download-app-android.png"
               alt="download-app-android"
           /></a>
+        </div>
+        <div class="btn-app-box">
           <a href="#" class="btn-app"
             ><img
               src="./resources/css/img/download-app.svg"
               alt="download-app-ios"
           /></a>
+        </div>
         </div>
       </div>
     </section>
@@ -232,7 +237,7 @@
         <h2>We're currently in these cities</h2>
       </div>
 
-      <div class="row">
+      <div class="row js--wp-3">
         <div class="col span_1_of_4 box">
           <img src="./resources/css/img/lisbon-3.jpg" alt="lisbon" />
           <h3>lisbon</h3>

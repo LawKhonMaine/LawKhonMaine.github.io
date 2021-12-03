@@ -139,7 +139,7 @@ input[type="submit"] {
 .black-logo-img {
   display: none;
   height: auto;
-  width: 80px;
+  width: 50px;
   float: left;
   margin: 0px 0 5px 80px;
 }
@@ -179,14 +179,14 @@ input[type="submit"] {
   top: 0px;
   left: 0px;
   width: 100%;
-  background-color: #f5f5f5;
-  box-shadow: #00000026 0px 3px 4px 0px;
-  color: black;
+  background-color: #ffffffea;
+  box-shadow: #000000 0px 3px 4px 0px;
+  color: #000000;
   z-index: 9999;
 }
 
 .sticky-nav .main-nav {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .sticky-nav .main-nav li {
@@ -195,7 +195,7 @@ input[type="submit"] {
 
 .sticky-nav .main-nav li a:link,
 .sticky-nav .main-nav li a:visited {
-  font-size: 85%;
+  font-size: 70%;
   color: #000000;
   padding: 15px 0px;
 }
@@ -332,21 +332,29 @@ h3 {
   margin-right: 10px;
 }
 
-.steps-work:last-of-type {
-  margin-bottom: 100px;
+.btn-app-box {
+  display: inline-block;
+  width: 47%;
+  height: auto;
+  margin: 20px 1%;
 }
 
-.btn-app {
+.btn-app img {
+  width: 100%;
+  height: 80px;
+}
+
+/* .btn-app {
   padding: 2% 0;
   width: 49%;
   float: left;
   margin: 0px;
-}
+} */
 
-.btn-app img {
+/* .btn-app img {
   height: 60px;
   width: 80%;
-}
+} */
 
 /* Styling cities-section */
 
@@ -606,4 +614,23 @@ footer {
 .fa-google-plus-g:hover,
 .fa-google-plus-g:active {
   color: #fbbc05;
+}
+
+/* Animation section */
+
+.js--wp-1 {
+  opacity: 0;
+  animation-duration: 4s;
+}
+
+.js--wp-1.animate__fadeIn,
+.js--wp-2.animate__backInUp,
+.js--wp-3.animate__fadeInUp {
+  opacity: 1;
+}
+
+.js--wp-2,
+.js--wp-3 {
+  opacity: 0;
+  animation-duration: 1.5s;
 }
