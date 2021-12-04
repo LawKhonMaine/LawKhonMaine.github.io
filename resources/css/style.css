@@ -141,7 +141,7 @@ input[type="submit"] {
   height: auto;
   width: 50px;
   float: left;
-  margin: 0px 0 5px 80px;
+  margin: 10px 0 10px 80px;
 }
 
 .main-nav {
@@ -170,6 +170,12 @@ input[type="submit"] {
 
 .main-nav li a:hover {
   border-bottom: 2px solid orange;
+}
+
+/* Styling main-mobile-nav */
+
+.main-mobile-nav {
+  display: none;
 }
 
 /* Styling sticky-nav */
@@ -618,19 +624,15 @@ footer {
 
 /* Animation section */
 
+.js--wp-2,
+.js--wp-3,
 .js--wp-1 {
   opacity: 0;
-  animation-duration: 4s;
+  animation-duration: 1.5s;
 }
 
-.js--wp-1.animate__fadeIn,
+.js--wp-1.animate__bounceIn,
 .js--wp-2.animate__backInUp,
 .js--wp-3.animate__fadeInUp {
   opacity: 1;
-}
-
-.js--wp-2,
-.js--wp-3 {
-  opacity: 0;
-  animation-duration: 1.5s;
 }

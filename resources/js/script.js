@@ -56,22 +56,37 @@ $(document).ready(function () {
   }
 });
 
-$('.js--section-header').waypoint(function(direction){
-  if(direction=='down'){
-    $('.js--wp-1').addClass('animate__fadeIn')
-  }else{$('.js--wp-1').removeClass('animate__fadeIn')}
-})
+
+
+// $('.js--wp-1').waypoint(function(direction){
+//   $('.js--wp-1').addClass('animate__fadeInLeft')
+// });
+
+$('.js--wp-1').waypoint(function(direction){
+    $('.js--wp-1').addClass('animate__bounceIn')
+},{offset:'90%'})
 
 $('.js--section-meal').waypoint(function(direction){
   if(direction=='down'){
   $('.js--wp-2').addClass('animate__backInUp')
 }else{$('.js--wp-2').removeClass('animate__backInUp')}
-})
+});
 
 $('.js--section-step').waypoint(function(direction){
   if(direction=='down'){
     $('.js--wp-3').addClass('animate__fadeInUp')
   }else{$('.js--wp-3').removeClass('animate__fadeInUp')}
+});
+
+$('.js--section-mobile-nav').click(function(){
+  $('.js--section-main-nav').slideToggle(200);
+  if($('.js--section-mobile-nav i').hasClass('fa-bars')){
+    $('.js--section-mobile-nav i').addClass('fa-times');
+    $('.js--section-mobile-nav i').removeClass('fa-bars');
+  }else{
+    $('.js--section-mobile-nav i').addClass('fa-bars');
+    $('.js--section-mobile-nav i').removeClass('fa-times');
+  }
 })
 
 
