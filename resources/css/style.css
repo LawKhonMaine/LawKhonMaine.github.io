@@ -345,7 +345,8 @@ h3 {
   margin: 20px 1%;
 }
 
-.btn-app img {
+.android-btn-app img,
+.ios-btn-app img {
   width: 100%;
   height: 80px;
 }
@@ -623,16 +624,21 @@ footer {
 }
 
 /* Animation section */
-
-.js--wp-2,
-.js--wp-3,
 .js--wp-1 {
-  opacity: 0;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
+}
+.js--wp-2 {
+  animation-duration: 2s;
+}
+.js--wp-3 {
+  animation-duration: 2.5s;
 }
 
-.js--wp-1.animate__bounceIn,
-.js--wp-2.animate__backInUp,
-.js--wp-3.animate__fadeInUp {
-  opacity: 1;
+.js--plan-container-wp-1,
+.js--plan-container-wp-3 {
+  animation-duration: 2s;
+}
+
+.js--plan-container-wp-2 {
+  animation-duration: 1.5s;
 }

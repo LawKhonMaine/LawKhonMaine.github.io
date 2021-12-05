@@ -56,21 +56,17 @@ $(document).ready(function () {
   }
 });
 
-
-
-// $('.js--wp-1').waypoint(function(direction){
-//   $('.js--wp-1').addClass('animate__fadeInLeft')
-// });
+// Scrolling animation
 
 $('.js--wp-1').waypoint(function(direction){
-    $('.js--wp-1').addClass('animate__bounceIn')
+    $('.js--wp-1').addClass('animate__slideInLeft')
 },{offset:'90%'})
 
 $('.js--section-meal').waypoint(function(direction){
   if(direction=='down'){
-  $('.js--wp-2').addClass('animate__backInUp')
-}else{$('.js--wp-2').removeClass('animate__backInUp')}
-});
+  $('.js--wp-2').addClass('animate__backInLeft')
+}else{$('.js--wp-2').removeClass('animate__backInLeft')}
+},{offset:'50%'});
 
 $('.js--section-step').waypoint(function(direction){
   if(direction=='down'){
@@ -88,6 +84,14 @@ $('.js--section-mobile-nav').click(function(){
     $('.js--section-mobile-nav i').removeClass('fa-times');
   }
 })
+
+$('.js--section-plan').waypoint(function(direction){
+  $('.js--plan-container-wp-1').addClass('animate__fadeIn')
+  $('.js--plan-container-wp-2').addClass('animate__fadeIn')
+  $('.js--plan-container-wp-3').addClass('animate__fadeIn')
+},{offset:'90%'})
+
+
 
 
 
